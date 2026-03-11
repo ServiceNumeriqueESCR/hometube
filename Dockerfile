@@ -4,8 +4,8 @@ FROM jauderho/yt-dlp:latest
 # Static labels (common to all builds)
 LABEL org.opencontainers.image.title="HomeTube" \
     org.opencontainers.image.description="🎬 HomeTube is a simple web UI for videos downloading" \
-    org.opencontainers.image.url="https://github.com/EgalitarianMonkey/hometube" \
-    org.opencontainers.image.source="https://github.com/EgalitarianMonkey/hometube" \
+    org.opencontainers.image.url="https://github.com/ServiceNumeriqueESCR/hometube" \
+    org.opencontainers.image.source="https://github.com/ServiceNumeriqueESCR/hometube" \
     org.opencontainers.image.licenses="AGPL-3.0-or-later"
 
 # Dynamic yt-dlp version label - will be set by build args
